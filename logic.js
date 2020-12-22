@@ -2,9 +2,8 @@
 
 var map = new mapboxgl.Map({
   container: 'map', // container id
-  style:fetch('https://api.mapbox.com/styles/v1/gbatth500/ckiz52u4a0ydd1apri7myrrrl.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiZ2JhdHRoNTAwIiwiYSI6ImNraWpwMXk2bjAyMTUydHFoNjAwYTIwZ2wifQ.7pi7olkUdhZO9OLMjMM8Pw', {mode: 'non-cors'}).then(function(response)
-  {console.log(response.type)}) // "opaque"});
-
+  style:'https://api.mapbox.com/styles/v1/gbatth500/ckiz52u4a0ydd1apri7myrrrl.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiZ2JhdHRoNTAwIiwiYSI6ImNraWpwMXk2bjAyMTUydHFoNjAwYTIwZ2wifQ.7pi7olkUdhZO9OLMjMM8Pw',
+  
          
 });
 
