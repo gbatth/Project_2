@@ -28,7 +28,7 @@ for (i = 0; i < layers.length; i++) {
 
 map.on('mousemove', function(e) {
   var states = map.queryRenderedFeatures(e.point, {
-    layers: ['statedata']
+    layers: ['statedata-14rojz']
   });
 
   if (states.length > 0) {
