@@ -62,11 +62,11 @@ Highcharts.mapChart('container', {
     },
 
     title: {
-        text: 'Highmaps basic demo'
+        text: '2019-2017 US Median Income by State'
     },
 
     subtitle: {
-        text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/us/us-all.js">United States of America</a>'
+        text: 'Source:US Census Bureau'
     },
 
     mapNavigation: {
