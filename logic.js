@@ -82,7 +82,7 @@ Highcharts.mapChart('container', {
 
     series: [{
         data: data,
-        name: 'Random data',
+        name: 'Median Income',
         states: {
             hover: {
                 color: '#BADA55'
